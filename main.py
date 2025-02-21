@@ -11,10 +11,10 @@ dotenv_path = find_dotenv()
 load_dotenv(dotenv_path)
 
 # Load API Key from environment variable
-GENAI_API_KEY='AIzaSyDl5rifa2lZg1BHVDnnu1VFcEKo0MQIDNQ'
+
 
 # Configure Google Gemini API
-genai.configure(api_key='AIzaSyDl5rifa2lZg1BHVDnnu1VFcEKo0MQIDNQ')
+
 
 sys_prompt = """You are an advanced Python instructor and code reviewer.
 Your task is to analyze the given Python code, identify potential bugs, logical errors, or areas for improvement, and provide suggestions. Focus solely on Python and coding questions, providing example-based explanations.
